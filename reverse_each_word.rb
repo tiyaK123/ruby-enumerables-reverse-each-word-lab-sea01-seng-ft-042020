@@ -4,7 +4,7 @@ a = ""
 array = str.split(/ /)
 array.collect do |str| 
   str.reverse
-a += str 
+a += " " + str 
 end
 a 
 end 
